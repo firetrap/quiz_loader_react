@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../isaqb_foundation_react.iml" filepath="$PROJECT_DIR$/../isaqb_foundation_react.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isaqb_foundation_react.iml" filepath="$PROJECT_DIR$/.idea/isaqb_foundation_react.iml" />
     </modules>
   </component>
 </project>
