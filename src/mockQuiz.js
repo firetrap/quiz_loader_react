@@ -5,13 +5,13 @@ const segment = {
 };
 
 const mockQuiz = {
-    quizTitle: 'React Quiz Component Demo',
+    quizTitle: 'Rito Mock Questions',
     quizSynopsis: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim',
     nrOfQuestions: '6',
     questions: [
         {
-            question: 'How can you access the state of a component from inside of a member function?',
-            questionPic: 'https://dummyimage.com/600x400/000/fff&text=X',
+            question: 'How many definitions of software architecture exist in software engineering textbooks or standards?',
+            questionPic: '',
             questionType: 'text',
             answerSelectionType: 'single',
             answers: [
