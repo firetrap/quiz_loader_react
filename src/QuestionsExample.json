@@ -1,0 +1,828 @@
+[
+  {
+    "quizTitle": "iSAQB Certified Professional for Software Architecture - Foundation Level (CPSA-F)",
+    "quizSynopsis": "Answer Sheet 2021.2-rev8-EN-20210819",
+    "nrOfQuestions": "39",
+    "questions": [
+      {
+        "question": "How many definitions of “software architecture” exist?",
+        "questionPic": "",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Exactly one for all kinds of systems.",
+          "One for every kind of software system (e.g. embedded, real-time, decision support, web, batch, …).",
+          "A dozen or more different definitions."
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which THREE of the following aspects are covered by the term \"software architecture\"?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Components",
+          "Cross cutting concepts",
+          "(internal and external) Interfaces",
+          "Coding conventions",
+          "Hardware sizing"
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which FOUR of the following statements about (crosscutting) concepts are most appropriate?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Uniform usage of concepts reduces coupling between building blocks.",
+          "The definition of appropriate concepts ensures the pattern compliance of the architecture.",
+          "Uniform exception handling can be achieved when architects agree with developers upon a suitable concept prior to implementation.",
+          "For each quality goal there should be an explicitly documented concept. Concepts are a means to increase consistency.",
+          "Concepts are a means to increase consistency.",
+          "A concept can define constraints for the implementation of many building blocks.",
+          "A concept might be implemented by a single building block."
+        ],
+        "correctAnswer": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "In your project, three architects and seven developers are working on the documentation of the software architecture. Which methods are appropriate in order to achieve a consistent and adequate documentation",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "The lead architect coordinates the creation of the documentation.",
+          "Identical templates are used for the documentation.",
+          "All parts of the documentation are automatically extracted\nfrom the source code."
+        ],
+        "correctAnswer": [
+          1,
+          2
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "Things like reasoning or alternatives won’t be contained in code, but need to be included in documentation,\ntherefore not all parts of documentation can be extracted from source code.",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which FOUR of the following techniques are best suited to illustrate the workflow or behavior of the system at runtime?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Flowcharts",
+          "Activity Diagrams",
+          "Depiction of screen flows (sequence of user interactions)",
+          "Sequence diagram",
+          "Linear Venn diagram",
+          "Numbered list of sequential steps",
+          "Tabular description of interfaces",
+          "Class diagrams"
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which THREE of the following principles apply to testing?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "In general, it is not possible to discover all errors in the system.",
+          "In components with many known previous errors, the chances for additional errors are high.",
+          "Sufficient testing can show that a program is free of errors.",
+          "Testing shows the existence of errors rather than the absence of errors.",
+          "Functional programming does not allow automated testing."
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which of the following statements regarding the information hiding principle are true?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Adhering to the information hiding principle increases flexibility for modifications.",
+          "Information hiding involves deliberately hiding information from callers or consumers of the building block.",
+          "Information hiding makes it harder to work bottom-up.",
+          "Information hiding is a derivative of the approach of incremental refinement along the control flow."
+        ],
+        "correctAnswer": [
+          1,
+          2
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "What are the TWO most important goals of software architecture?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Improve accuracy of patterns in structure and implementation.",
+          "Achieve quality requirements in a comprehensible way.",
+          "Enable cost-effective integration and acceptance tests of the system.",
+          "Enable a basic understanding of structures and concepts for the development team and other stakeholders."
+        ],
+        "correctAnswer": [
+          2,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Put yourself in the position of a software architect for a large, distributed business application in the banking or insurance domain. Which of the following statements is true?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "The architect collaborates with the stakeholders to determine where the requirements and constraints will change often (e.g., business processes, technologies), and designs the architecture such that changes can occur without requiring extensive restructuring of the software architecture.",
+          "Required product qualities should drive your architectural decisions.",
+          "The software architecture can be designed completely independent of the hardware and infrastructure"
+        ],
+        "correctAnswer": [
+          1,
+          2
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "What are your THREE most important responsibilities as a software architect with respect to requirements?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Support the business people to specify explicit and concrete quality requirements.",
+          "Help to identify new business opportunities based on your technology know-how.",
+          "Reject business requirements that contain technical risks.",
+          "Capture all business requirements in a terminology that can be understood by your development team.",
+          "Check requirements for technological feasibility."
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          5
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "Concerning option (c): It’s not our task to reject requirements just because they contain risks. We should identify and communicate those risks, but not reject such requirements.",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "You are responsible as an architect for keeping a legacy system up and running according to the ongoing\nrequirements of your business. What are the THREE most important action items on your agenda?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Negotiating the maintenance budget for your team",
+          "Assuring up-to-date documentation of the deployed system",
+          "Analyzing the impact of new requirements on the current system",
+          "Encouraging the team members to learn new programming languages",
+          "Suggesting technology updates in addition to the business requirements to your management"
+        ],
+        "correctAnswer": [
+          2,
+          3,
+          5
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which of the following statements regarding architecture decisions are false?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Architecture decisions never need to be written down because they are already known to the development team.",
+          "An architecture decision record helps to make the decision’s context understood.",
+          "Once a decision has been made on a central or fundamental framework (e.g. persistence framework), that decision must not be changed.",
+          "Quality requirements help significantly with architecture decisions."
+        ],
+        "correctAnswer": [
+          1,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Decide for each of the following statements whether it is true?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Each iteration of an agile development approach could have an impact on the fundamental architecture decisions.",
+          "The total effort spent on architectural work is much higher in iterative projects compared to waterfall projects.",
+          "Agile projects do not need architecture documents since the development team uses daily standup-meetings to communicate decisions.",
+          "If your systems consist of a set of microservices there is no need for a central architecture document since each service is free to choose its technologies."
+        ],
+        "correctAnswer": [
+          1
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which of the following statements regarding project goals and architectural goals is false.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Project Goals can include functional requirements as well as quality requirements.",
+          "Architectural goals are derived from the quality requirements for the system or product.",
+          "Business stakeholders should concentrate on business goals and not interfere with architectural goals.",
+          "To avoid conflicts, business goals and architectural goals should be non- overlapping sets."
+        ],
+        "correctAnswer": [
+          3,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "Business stakeholder might very well have goals like performance, flexibility or security, which are\nconsidered \"architecture goals\".",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "What does the rule “explicit, not implicit” mean for architecture work? Choose the TWO best-fitting answers.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Architects should avoid recursive structures and replace them by explicit loops.",
+          "Architects should make the assumptions leading to decisions explicit.",
+          "Architects should explicitly insist on natural language explanations (i.e. comments) for each building block.",
+          "Architects should explicitly insist on written or at least verbal justifications for development effort estimates from their team.",
+          "Architects should make prerequisites for their decisions explicit."
+        ],
+        "correctAnswer": [
+          2,
+          5
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Identify the THREE most appropriate examples for typical categories of software systems.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Batch system",
+          "Interactive online system",
+          "Linnés system.",
+          "Embedded real-time system.",
+          "Integration test system."
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "There are many approaches that lead to a software architecture. Which of the following are the THREE most often found in practice?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "User interface driven design",
+          "Domain driven design",
+          "View based architecture development",
+          "Bottom-up design",
+          "Majority voting"
+        ],
+        "correctAnswer": [
+          2,
+          3,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Several architecture development methods suggest a view-based approach. Which three of the following\nviews are most often used?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Physical database view",
+          "Context view",
+          "Building Block/Component view",
+          "Test-driven view",
+          "Configuration view",
+          "Runtime view"
+        ],
+        "correctAnswer": [
+          2,
+          3,
+          6
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "When documenting a building block of your software architecture, which TWO information should the blackbox description contain?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Public interfaces.",
+          "Responsibility of the building block.",
+          "Internal structure of the building block.",
+          "Specification of the implementation details."
+        ],
+        "correctAnswer": [
+          1,
+          2
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which prerequisites have to be fulfilled before developing a software architecture? Pick the TWO most appropriate answers.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "The requirements specification for the system is complete, detailed and consistent.",
+          "The most important qualities for the system are known.",
+          "Organizational constraints are known.",
+          "The programming language has been selected.",
+          "Hardware for the development team is available"
+        ],
+        "correctAnswer": [
+          2,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "In most cases it is unrealistic to have complete requirements specification. Often it is enough to have an overview and know certain details (e.g. quality requirements).",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which factors can influence the design of a software architecture? Pick the THREE most appropriate answers.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Political.",
+          "Organizational.",
+          "Technical.",
+          "Virtual"
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which of the following qualities can most likely be improved by using a layered architecture?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Runtime efficiency (performance).",
+          "Flexibility in modifying or changing the system.",
+          "Flexibility at runtime (configurability).",
+          "Non-repudiability."
+        ],
+        "correctAnswer": [
+          2
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which type of problems provide a good fit for the Pipes & Filter Pattern?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Management of global application state",
+          "IT systems which process data streams",
+          "Decoupling multiple steps of an execution",
+          "Temporal decoupling of an application"
+        ],
+        "correctAnswer": [
+          2,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which goals are you trying to achieve with the dependency inversion principle?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Big building blocks shall not depend on small building blocks.",
+          "Components shall be able to create dependent components more easily.",
+          "Building blocks shall only depend on each other via abstractions."
+        ],
+        "correctAnswer": [
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "What are characteristics of tight (high) coupling?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Building blocks directly call dependent building blocks, i.e., without using indirect calls via interfaces or abstractions.",
+          "Building blocks use shared complex data structures.",
+          "Building blocks use a shared table (for read- and write operations) within a relational database.",
+          "When designing building blocks, you have consistently applied the dependency inversion principle."
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which TWO statements about the principle “Don’t repeat yourself” (DRY) fit best? In other words: What could happen, if parts of the source code or configuration do exist in multiple copies in the system?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "DRY reduces security.",
+          "Strict adherence to DRY could lead to higher coupling.",
+          "The components of the system that contain redundant code can be improved independently of each other.",
+          "Adherence to DRY leads to additional attack vectors in IT security.",
+          "Applying the Layer patterns allows a consistent application of the DRY principle."
+        ],
+        "correctAnswer": [
+          2,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "You can communicate aspects of your software architecture verbally and/or in writing. How do these variants correlate? Decide for each of the following statements which are false.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Verbal communication should supplement written documentation.",
+          "Feedback to architecture decisions should always be done in writing to ensure traceability.",
+          "Written documentation should always precede verbal communication.",
+          "Architects should pick one variant (verbal or written) and stick to this choice during the whole development."
+        ],
+        "correctAnswer": [
+          2,
+          3,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "• Sometimes verbal communication needs to come first, there is no general rule.\n• Feedback should not be restricted to written statements.",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which of the following statements about notations for architectural views is true?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Business Process Model & Notation (BPMN) should only be used by Business Analysts and not for architecture documentation.",
+          "UML deployment models are the only way to document the mapping of software components to infrastructure.",
+          "UML Package Diagrams can be used to capture the building-block view of software architectures.",
+          "As long as the notation is explained (e.g. by a legend), any notation can be sufficient to describe building block structures and collaboration."
+        ],
+        "correctAnswer": [
+          3,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which architectural views have the most practical application for developing software architectures?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Pattern View.",
+          "Observer View.",
+          "Building-Block View (Component View).",
+          "Deployment View"
+        ],
+        "correctAnswer": [
+          3,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "The context view might contain a business context and a technical context, or both. Pick the two most\nappropriate answers that apply to the technical context.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "The technical context contains the physical channels between your system and its environment.",
+          "The technical context contains all the infrastructure on which the components of your system are deployed.",
+          "The technical context should include hardware pricing or pricing of cloud services used as infrastructure for your architecture.",
+          "The technical context contains information about the chosen programming language as well as all frameworks used to implement your software architecture.",
+          "The technical context might contain different elements than the business context."
+        ],
+        "correctAnswer": [
+          1,
+          5
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Software architecture documentation could contain descriptions of cross-cutting concerns. Pick the TWO\nbest reasons why documentation of cross-cutting concerns is useful.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Cross-cutting concepts should focus on the domain and be free of technical information.",
+          "Aspects or concepts that are used in multiple parts of your software architecture should be described in a non-redundant way.",
+          "Cross-cutting concepts can be reused in more products within the same organization.",
+          "Cross-cutting concepts should be implemented by specialists. Therefore, separate documentation is useful."
+        ],
+        "correctAnswer": [
+          2,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "Regarding option (e), \"identical behavior in all aspects\": It’s technically not feasible to have identical\nbehavior, at least concerning latency, and response time.\nA more detailed explanation can be found in the (rather famous) Fallacies_of_distributed_computing",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "What are guidelines for good interface design? Check which of the following statements are true",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Use of interfaces should be easy to learn.",
+          "The client code should be reasonably easy to understand in relation to the functional complexity.",
+          "An interface should provide access to a comprehensive set of implementation details.",
+          "Interface specifications should contain functional and nonfunctional aspects.",
+          "Local and remote calls to an interface should behave identically in all aspects."
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "One definition says: “Software architecture is the sum of all the decisions you have taken during\ndevelopment.” Check which of the following statements about architectural/design decisions are true",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Architectural decisions can impact the structure of the building block or components.",
+          "Software architects shall justify all design decisions in writing.",
+          "Architectural decisions can have interdependencies between each other.",
+          "Tradeoffs between conflicting quality requirements should be explicit decisions."
+        ],
+        "correctAnswer": [
+          1,
+          3,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "Not all decisions need to be justified in writing - as the requirement for written documentation depends on\nthe situation, the team, the system and other factors.",
+        "point": "1",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which of the following statements are typical reasons for maintaining adequate architecture documentation",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "To support onboarding of new developers.",
+          "To support the automated testing approach of the system.",
+          "To support the work of distributed teams.",
+          "To assist in future enhancements of the product.",
+          "To conform to regulatory or legal constraints.",
+          "To ensure that developers have enough work to do."
+        ],
+        "correctAnswer": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which of the following pairs of qualities are usually in conflict to each other?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Understandability – Readability.",
+          "Usability – Security.",
+          "Runtime configurability – Robustness.",
+          "Security – Legal Compliance."
+        ],
+        "correctAnswer": [
+          2,
+          3
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "ISO 25010 provides generic quality characteristics for software systems. How can quality requirements\nconcerning these characteristics be made more concrete? Pick the TWO best alternatives.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "By developing UI prototypes.",
+          "By defining explicit interfaces.",
+          "By discussing or writing scenarios.",
+          "By creating automated tests.",
+          "By creating a quality tree."
+        ],
+        "correctAnswer": [
+          3,
+          5
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "Which of the following alternatives are most suitable for supporting a qualitative analysis of your software\narchitecture? Pick the FOUR best alternatives.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Quantitative dependency analysis.",
+          "Architecture models.",
+          "Quality scenarios.",
+          "Team size.",
+          "Log files.",
+          "Organizational structure."
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "You try to analyze your architecture quantitatively. Which are the two most appropriate indicators for\narchitectural problem areas?",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "High coupling of components.",
+          "Names of public methods do not reflect their purpose.",
+          "Missing comments.",
+          "Clusters of errors in certain building blocks of the system.",
+          "Number of test cases per component."
+        ],
+        "correctAnswer": [
+          1,
+          4
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "",
+        "point": "2",
+        "segment": "advanced"
+      },
+      {
+        "question": "You try to quantitatively analyze your architecture. Which three of the following properties can you\nmeasure reliably in your software architecture? Pick the three best fitting answers.",
+        "questionType": "text",
+        "answerSelectionType": "multiple",
+        "answers": [
+          "Size of building blocks (e.g. LOC).",
+          "Change rate of the source code of components.",
+          "Cohesion of the architectural components.",
+          "Security level of a component.",
+          "Number of the developers that contributed to a specific component."
+        ],
+        "correctAnswer": [
+          1,
+          2,
+          5
+        ],
+        "messageForCorrectAnswer": "",
+        "messageForIncorrectAnswer": "",
+        "explanation": "• Size can easily and reliably be measured when statically analyzing source code (lines-of-code metric\nis a reliable size metric)\n• change-rate and number-of-developers-per-component can reliably be measured when taking the\nversion control history into account, which is perfectly feasibly with systems like git, subversion or\nsimilar tools that are widely used in development.",
+        "point": "1",
+        "segment": "advanced"
+      }
+    ]
+  }
+]

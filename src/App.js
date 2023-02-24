@@ -1,9 +1,7 @@
 import './App.css';
-import axios from 'axios';
 import Quiz from 'react-quiz-component';
 import React, {useState} from 'react';
-import mockQuiz from "./mockQuiz";
-import LoadingSpinner from "./components/progress/loading";
+import ProgressSpinner from "./components/progress/progress";
 
 function App() {
 
@@ -11,15 +9,16 @@ function App() {
     const [quizResult, setQuizResult] = useState();
     const [isLoading, setIsLoading] = useState(false);
 
-    // setIsLoading(false)
     const handleFetch = () => {
+
         setIsLoading(true);
-        fetch("https://63f7492d833c7c9c60809ea5.mockapi.io/exams")
-            .then(response => response.json())
+        fetch("https://63f7492d833c7c9c60809ea5.mockapi.io/exams").then(response => response.json())
             .then(response => {
 
-                const quizi = (<Quiz
-                    quiz={mockQuiz}
+                const randomQuiz = response[Math.floor(Math.random() * response.length)];
+
+                const quizRenderer = (<Quiz
+                    quiz={randomQuiz}
                     shuffle
                     // showInstantFeedback
                     // continueTillCorrect
@@ -29,20 +28,23 @@ function App() {
                     // revealAnswerOnSubmit
                     allowNavigation
                 />)
-                setQuiz(quizi)
+                setQuiz(quizRenderer)
                 setIsLoading(false)
             })
-            .catch(() => {
+            .catch(error => {
                 setIsLoading(false);
+                console.log('Error fetching data:', error)
             });
     };
 
 
     return (<div className="App">
-        {isLoading ? <LoadingSpinner/> : quiz}
-        <button onClick={handleFetch} disabled={isLoading}>
-            Fetch Users
-        </button>
+        {isLoading ? <ProgressSpinner/> : quiz}
+        <div className="react-quiz-container">
+            <button onClick={handleFetch} disabled={isLoading} className="btnLoadQuestions">
+                Load new questions
+            </button>
+        </div>
     </div>);
 }
 
