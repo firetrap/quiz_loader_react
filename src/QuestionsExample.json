@@ -259,9 +259,9 @@
         "segment": "advanced"
       },
       {
-        "question": "Decide for each of the following statements whether it is true?",
+        "question": "Which of the following statements it is true?",
         "questionType": "text",
-        "answerSelectionType": "multiple",
+        "answerSelectionType": "single",
         "answers": [
           "Each iteration of an agile development approach could have an impact on the fundamental architecture decisions.",
           "The total effort spent on architectural work is much higher in iterative projects compared to waterfall projects.",
@@ -450,7 +450,7 @@
       {
         "question": "Which of the following qualities can most likely be improved by using a layered architecture?",
         "questionType": "text",
-        "answerSelectionType": "multiple",
+        "answerSelectionType": "single",
         "answers": [
           "Runtime efficiency (performance).",
           "Flexibility in modifying or changing the system.",
@@ -489,7 +489,7 @@
       {
         "question": "Which goals are you trying to achieve with the dependency inversion principle?",
         "questionType": "text",
-        "answerSelectionType": "multiple",
+        "answerSelectionType": "single",
         "answers": [
           "Big building blocks shall not depend on small building blocks.",
           "Components shall be able to create dependent components more easily.",
