@@ -1,7 +1,7 @@
 {
   "name": "isaqb_foundation_react",
   "version": "0.1.0",
-  "homepage": "https://firetrap.github.io/quiz-react-gh-pages",
+  "homepage": "https://firetrap.github.io/quiz_loader_react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
