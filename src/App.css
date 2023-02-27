@@ -1,3 +1,16 @@
+/* CSS HEX */
+:root {
+    --lavender-blush: #FEF1FDff;
+    --lavender-pink: #FBB5DEff;
+    --scarlet: #F93D20ff;
+    --scarlet-light: #e63946;
+    --red-violet: #D70097ff;
+    --dark-violet: #A801D7ff;
+    --dark-green: #2a9d8f;
+    --dark-yellow: #b68764;
+    --scarlet-soft: #773d3d;
+}
+
 .App {
     text-align: center;
 }
@@ -21,11 +34,11 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: var(--lavender-blush);
 }
 
 .App-link {
-    color: #61dafb;
+    color: var(--dark-violet);
 }
 
 @keyframes App-logo-spin {
@@ -37,16 +50,21 @@
     }
 }
 
+a:-webkit-any-link {
+    color: var(--red-violet);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .react-quiz-container {
     margin: auto !important;;
 }
 
-.btnLoadQuestions {
+.btnSummaryOptionNewQuestions, .btnSummaryOptionNewJson {
     width: auto;
-    margin: 150px auto;
+    margin: 128px auto 128px 24px;
     border-radius: 4px;
     font-size: 15px;
-    display: block;
     white-space: normal;
     text-align: unset;
     font-weight: 600;
@@ -54,13 +72,41 @@
     vertical-align: middle;
     touch-action: manipulation;
     cursor: pointer;
-    background-image: none;
+    /*background-image: none;*/
     border: 1px solid transparent;
     -webkit-user-select: none;
-    background-color: #f6540b;
-    color: #f1f1f1;
+    color: white;
     user-select: none;
 }
+.btnSummaryOptionNewQuestions {
+ background-color: #3d405b;
+}
+.btnSummaryOptionNewJson {
+    background-color: #3d405b;
+}
+.summaryOptions {
+    width: 200px;
+    margin: 0 auto;
+    display: inline;
+}
 
-
-
+.react-quiz-container .incorrect {
+    background: var(--scarlet) !important;
+    color: white;
+}
+.react-quiz-container .questionWrapper .btn.correct {
+    background: var(--dark-green) !important;
+    color: white;
+}
+.react-quiz-container .selection-tag.multiple {
+    background: #a8dadc !important;
+}
+.react-quiz-container .selection-tag.single {
+    background: #a8dadc !important;
+}
+.react-quiz-container .number-of-selection {
+    background: #457b9d !important;
+}
+.react-quiz-container .selection-tag.segment {
+    background: #1d3557 !important;
+}
