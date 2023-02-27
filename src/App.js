@@ -37,7 +37,7 @@ function App() {
         <h4>This Drag 'n' drop will load a random "quiz" element inside the json array uploaded bellow.</h4>
         <h6>
             You can inspect or download an example of the quiz.json file to use <a
-            href="http://www.stopsweats.org">here</a>
+            href="https://raw.githubusercontent.com/firetrap/quiz_loader_react/main/QuestionsExample.json">here</a>
         </h6>
         <DragAndDrop onDrop={onDrop}>
         </DragAndDrop>
