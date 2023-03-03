@@ -100,9 +100,11 @@ a:-webkit-any-link {
 }
 .react-quiz-container .selection-tag.multiple {
     background: #a8dadc !important;
+    display: none !important;
 }
 .react-quiz-container .selection-tag.single {
     background: #a8dadc !important;
+    display: none !important;
 }
 .react-quiz-container .number-of-selection {
     background: #457b9d !important;
